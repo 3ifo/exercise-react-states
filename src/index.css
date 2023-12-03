@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.night-mode {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  background-color: black;
+  color: #fff;
+}
+
+.day-mode {
+  width: 100%;
+  height: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+ul li {
+  list-style-type: none;
+  font-size: 1.3rem;
+}
+
+#bottoni {
+  display: flex;
+  gap: 1rem;
+}
